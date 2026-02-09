@@ -7,7 +7,7 @@ I bridge the gap between data insights and software development. I am passionate
 
 ### 🛠 My Technical Toolbox
 
-*   **Programming & Development:** Python, R, SQL, Git/GitHub, Bash
+*   **Programming & Development:** Python, R, SQL, Git/GitHub
 *   **Data Science & Machine Learning:** Scikit-Learn, Tidyverse (R), Statistical Modeling, EDA
 *   **Data Analysis & Visualization:** Tableau, Power BI, Matplotlib, ggplot2, Excel
 *   **Web & Automation:** Streamlit (Python-based apps), Flask/FastAPI (Basic APIs), GitHub Actions
