@@ -1,0 +1,1158 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "bec7fc7b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004617,
+     "end_time": "2026-02-17T09:38:28.581531",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:28.576914",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**This notebook is an exercise in the [Python](https://www.kaggle.com/learn/python) course.  You can reference the tutorial at [this link](https://www.kaggle.com/colinmorris/hello-python).**\n",
+    "\n",
+    "---\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2a517415",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002954,
+     "end_time": "2026-02-17T09:38:28.587680",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:28.584726",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "Welcome to your first set of Python coding problems.  If this is your first time using Kaggle Notebooks, welcome! \n",
+    "\n",
+    "Notebooks are composed of blocks (called \"cells\") of text and code. Each of these is editable, though you'll mainly be editing the code cells to answer some questions.\n",
+    "\n",
+    "To get started, try running the code cell below (by pressing the ► button, or clicking on the cell and pressing ctrl+enter on your keyboard)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "71ec7e3b",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:28.595217Z",
+     "iopub.status.busy": "2026-02-17T09:38:28.594867Z",
+     "iopub.status.idle": "2026-02-17T09:38:28.603638Z",
+     "shell.execute_reply": "2026-02-17T09:38:28.602467Z"
+    },
+    "papermill": {
+     "duration": 0.014576,
+     "end_time": "2026-02-17T09:38:28.605343",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:28.590767",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "You've successfully run some Python code\n",
+      "Congratulations!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"You've successfully run some Python code\")\n",
+    "print(\"Congratulations!\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a12bc912",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003222,
+     "end_time": "2026-02-17T09:38:28.612318",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:28.609096",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "Try adding another line of code in the cell above and re-running it. \n",
+    "\n",
+    "Now let's get a little fancier:  Add a new code cell by clicking on an existing code cell, hitting the escape key, and then hitting the `a` or `b` key.  The `a` key will add a cell above the current cell, and `b` adds a cell below.\n",
+    "\n",
+    "Great! Now you know how to use Notebooks.\n",
+    "\n",
+    "Each hands-on exercise starts by setting up our feedback and code checking mechanism. Run the code cell below to do that. Then you'll be ready to move on to question 0."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "637f36e3",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003302,
+     "end_time": "2026-02-17T09:38:28.618989",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:28.615687",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "961b5b7c",
+   "metadata": {
+    "_kg_hide-input": true,
+    "_kg_hide-output": true,
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:28.626673Z",
+     "iopub.status.busy": "2026-02-17T09:38:28.626398Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.779724Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.778529Z"
+    },
+    "papermill": {
+     "duration": 1.159243,
+     "end_time": "2026-02-17T09:38:29.781327",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:28.622084",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Setup complete! You're ready to start question 0.\n"
+     ]
+    }
+   ],
+   "source": [
+    "from learntools.core import binder; binder.bind(globals())\n",
+    "from learntools.python.ex1 import *\n",
+    "print(\"Setup complete! You're ready to start question 0.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "789cf285",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003106,
+     "end_time": "2026-02-17T09:38:29.788099",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.784993",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6a7d8bb9",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003002,
+     "end_time": "2026-02-17T09:38:29.794292",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.791290",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# 0.\n",
+    "\n",
+    "*This is a silly question intended as an introduction to the format we use for hands-on exercises throughout all Kaggle courses.*\n",
+    "\n",
+    "**What is your favorite color? **\n",
+    "\n",
+    "To complete this question, create a variable called `color` in the cell below with an appropriate value. The function call `q0.check()` (which we've already provided in the cell below) will check your answer."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "69903a1c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.802859Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.802474Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.814296Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.813424Z"
+    },
+    "papermill": {
+     "duration": 0.017937,
+     "end_time": "2026-02-17T09:38:29.815960",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.798023",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "WARNING:root:Ignoring repeated attempt to bind to globals\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Blue\n"
+     ]
+    },
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"outcomeType\": 1, \"valueTowardsCompletion\": 0.25, \"interactionType\": 1, \"questionType\": 2, \"questionId\": \"0_ExerciseFormatTutorial\", \"learnToolsVersion\": \"0.3.5\", \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\"}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc33\">Correct:</span> What?! You got it right without needing a hint or anything? Drats. Well hey, you should still continue to the next step to get some practice asking for a hint and checking solutions. (Even though you obviously don't need any help here.)"
+      ],
+      "text/plain": [
+       "Correct: What?! You got it right without needing a hint or anything? Drats. Well hey, you should still continue to the next step to get some practice asking for a hint and checking solutions. (Even though you obviously don't need any help here.)"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "from learntools.core import binder\n",
+    "binder.bind(globals())\n",
+    "from learntools.python.ex1 import *\n",
+    "# Restore print function if it was accidentally overwritten\n",
+    "import builtins\n",
+    "print = builtins.print\n",
+    "\n",
+    "# create a variable called color with an appropriate value on the line below\n",
+    "# (Remember, strings in Python must be enclosed in 'single' or \"double\" quotes)\n",
+    "color = \"Blue\"\n",
+    "print(color)\n",
+    "# Check your answer\n",
+    "q0.check()\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "4baa3d21",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.827035Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.826769Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.837257Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.836041Z"
+    },
+    "papermill": {
+     "duration": 0.018658,
+     "end_time": "2026-02-17T09:38:29.839114",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.820456",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"interactionType\": 3, \"questionType\": 2, \"questionId\": \"0_ExerciseFormatTutorial\", \"learnToolsVersion\": \"0.3.5\", \"valueTowardsCompletion\": 0.0, \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\", \"outcomeType\": 4}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc99\">Solution:</span> \n",
+       "```python\n",
+       "color = \"blue\"\n",
+       "```"
+      ],
+      "text/plain": [
+       "Solution: \n",
+       "```python\n",
+       "color = \"blue\"\n",
+       "```"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "#q0.hint()\n",
+    "q0.solution()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "90d0c117",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00601,
+     "end_time": "2026-02-17T09:38:29.850749",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.844739",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "Didn't get the right answer? How do you not even know your own favorite color?!\n",
+    "\n",
+    "Delete the `#` in the line below to make one of the lines run. You can choose between getting a hint or the full answer by choosing which line to remove the `#` from. \n",
+    "\n",
+    "Removing the `#` is called uncommenting, because it changes that line from a \"comment\" which Python doesn't run to code, which Python does run."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1eeec552",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00583,
+     "end_time": "2026-02-17T09:38:29.862791",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.856961",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "The upcoming questions work the same way. The only thing that will change are the question numbers. For the next question, you'll call `q1.check()`, `q1.hint()`, `q1.solution()`, for question 2, you'll call `q2.check()`, and so on."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a0576e86",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003766,
+     "end_time": "2026-02-17T09:38:29.870555",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.866789",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "<hr/>\n",
+    "\n",
+    "# 1.\n",
+    "\n",
+    "Complete the code below. In case it's helpful, here is the table of available arithmetic operations:\n",
+    "\n",
+    "\n",
+    "\n",
+    "| Operator     | Name           | Description                                            |\n",
+    "|--------------|----------------|--------------------------------------------------------|\n",
+    "| ``a + b``    | Addition       | Sum of ``a`` and ``b``                                 |\n",
+    "| ``a - b``    | Subtraction    | Difference of ``a`` and ``b``                          |\n",
+    "| ``a * b``    | Multiplication | Product of ``a`` and ``b``                             |\n",
+    "| ``a / b``    | True division  | Quotient of ``a`` and ``b``                            |\n",
+    "| ``a // b``   | Floor division | Quotient of ``a`` and ``b``, removing fractional parts |\n",
+    "| ``a % b``    | Modulus        | Integer remainder after division of ``a`` by ``b``     |\n",
+    "| ``a ** b``   | Exponentiation | ``a`` raised to the power of ``b``                     |\n",
+    "| ``-a``       | Negation       | The negative of ``a``                                  |\n",
+    "\n",
+    "<span style=\"display:none\"></span>\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "0075bc55",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.882709Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.882367Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.889821Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.888730Z"
+    },
+    "papermill": {
+     "duration": 0.017261,
+     "end_time": "2026-02-17T09:38:29.891437",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.874176",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"outcomeType\": 1, \"valueTowardsCompletion\": 0.25, \"interactionType\": 1, \"questionType\": 1, \"questionId\": \"1_CircleArea\", \"learnToolsVersion\": \"0.3.5\", \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\"}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc33\">Correct</span>"
+      ],
+      "text/plain": [
+       "Correct"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "pi = 3.14159 # approximate\n",
+    "diameter = 3\n",
+    "\n",
+    "# Create a variable called 'radius' equal to half the diameter\n",
+    "radius = diameter / 2\n",
+    "# Create a variable called 'area', using the formula for the area of a circle: pi times the radius squared\n",
+    "area = pi * radius ** 2\n",
+    "# Check your answer\n",
+    "q1.check()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "01f4f868",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.902055Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.901739Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.908849Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.908046Z"
+    },
+    "papermill": {
+     "duration": 0.014877,
+     "end_time": "2026-02-17T09:38:29.910480",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.895603",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"interactionType\": 3, \"questionType\": 1, \"questionId\": \"1_CircleArea\", \"learnToolsVersion\": \"0.3.5\", \"valueTowardsCompletion\": 0.0, \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\", \"outcomeType\": 4}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc99\">Solution:</span> \n",
+       "```python\n",
+       "radius = diameter / 2\n",
+       "area = pi * radius ** 2\n",
+       "```"
+      ],
+      "text/plain": [
+       "Solution: \n",
+       "```python\n",
+       "radius = diameter / 2\n",
+       "area = pi * radius ** 2\n",
+       "```"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Uncomment and run the lines below if you need help.\n",
+    "#q1.hint()\n",
+    "q1.solution()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3b45301a",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004041,
+     "end_time": "2026-02-17T09:38:29.919743",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.915702",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "<hr/>\n",
+    "\n",
+    "# 2.\n",
+    "\n",
+    "Add code to the following cell to swap variables `a` and `b` (so that `a` refers to the object previously referred to by `b` and vice versa)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "1e0477a8",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.929404Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.928468Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.935662Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.934939Z"
+    },
+    "papermill": {
+     "duration": 0.013521,
+     "end_time": "2026-02-17T09:38:29.936938",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.923417",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"outcomeType\": 1, \"valueTowardsCompletion\": 0.25, \"interactionType\": 1, \"questionType\": 2, \"questionId\": \"2_VariableSwap\", \"learnToolsVersion\": \"0.3.5\", \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\"}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc33\">Correct:</span> \n",
+       "\n",
+       "The most straightforward solution is to use a third variable to temporarily store one of the old values. e.g.:\n",
+       "\n",
+       "    tmp = a\n",
+       "    a = b\n",
+       "    b = tmp\n",
+       "\n",
+       "If you've read lots of Python code, you might have seen the following trick to swap two variables in one line:\n",
+       "\n",
+       "    a, b = b, a\n",
+       "\n",
+       "We'll demystify this bit of Python magic later when we talk about *tuples*."
+      ],
+      "text/plain": [
+       "Correct: \n",
+       "\n",
+       "The most straightforward solution is to use a third variable to temporarily store one of the old values. e.g.:\n",
+       "\n",
+       "    tmp = a\n",
+       "    a = b\n",
+       "    b = tmp\n",
+       "\n",
+       "If you've read lots of Python code, you might have seen the following trick to swap two variables in one line:\n",
+       "\n",
+       "    a, b = b, a\n",
+       "\n",
+       "We'll demystify this bit of Python magic later when we talk about *tuples*."
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "########### Setup code - don't touch this part ######################\n",
+    "# If you're curious, these are examples of lists. We'll talk about \n",
+    "# them in depth a few lessons from now. For now, just know that they're\n",
+    "# yet another type of Python object, like int or float.\n",
+    "a = [1, 2, 3]\n",
+    "b = [3, 2, 1]\n",
+    "q2.store_original_ids()\n",
+    "######################################################################\n",
+    "\n",
+    "# Your code goes here. Swap the values to which a and b refer.\n",
+    "tmp = a\n",
+    "a = b\n",
+    "b = tmp\n",
+    "# If you get stuck, you can always uncomment one or both of the lines in\n",
+    "# the next cell for a hint, or to peek at the solution.\n",
+    "\n",
+    "######################################################################\n",
+    "\n",
+    "# Check your answer\n",
+    "q2.check()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "0463060c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.946960Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.946647Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.951437Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.950178Z"
+    },
+    "papermill": {
+     "duration": 0.011899,
+     "end_time": "2026-02-17T09:38:29.953344",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.941445",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "#q2.hint()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "06634ddb",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.963356Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.962967Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.966787Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.965759Z"
+    },
+    "papermill": {
+     "duration": 0.010734,
+     "end_time": "2026-02-17T09:38:29.968342",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.957608",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "# q2.solution()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cce8e04d",
+   "metadata": {
+    "papermill": {
+     "duration": 0.003838,
+     "end_time": "2026-02-17T09:38:29.976607",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.972769",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "<hr/>\n",
+    "\n",
+    "# 3a.\n",
+    "\n",
+    "Add parentheses to the following expression so that it evaluates to 1."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "142cbe02",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:29.986023Z",
+     "iopub.status.busy": "2026-02-17T09:38:29.985705Z",
+     "iopub.status.idle": "2026-02-17T09:38:29.991436Z",
+     "shell.execute_reply": "2026-02-17T09:38:29.990324Z"
+    },
+    "papermill": {
+     "duration": 0.012829,
+     "end_time": "2026-02-17T09:38:29.993358",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.980529",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(5 - 3) // 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "f0bd562c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:30.005730Z",
+     "iopub.status.busy": "2026-02-17T09:38:30.005410Z",
+     "iopub.status.idle": "2026-02-17T09:38:30.010350Z",
+     "shell.execute_reply": "2026-02-17T09:38:30.009373Z"
+    },
+    "papermill": {
+     "duration": 0.013468,
+     "end_time": "2026-02-17T09:38:30.012092",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:29.998624",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "#q3.a.hint()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "8fb751c5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:30.022667Z",
+     "iopub.status.busy": "2026-02-17T09:38:30.022378Z",
+     "iopub.status.idle": "2026-02-17T09:38:30.029218Z",
+     "shell.execute_reply": "2026-02-17T09:38:30.028339Z"
+    },
+    "papermill": {
+     "duration": 0.014244,
+     "end_time": "2026-02-17T09:38:30.031122",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.016878",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"interactionType\": 3, \"questionType\": 4, \"questionId\": \"3.1_ArithmeticParensEasy\", \"learnToolsVersion\": \"0.3.5\", \"valueTowardsCompletion\": 0.0, \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\", \"outcomeType\": 4}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc99\">Solution:</span> \n",
+       "```python\n",
+       "(5 - 3) // 2\n",
+       "```"
+      ],
+      "text/plain": [
+       "Solution: \n",
+       "```python\n",
+       "(5 - 3) // 2\n",
+       "```"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Check your answer (Run this code cell to receive credit!)\n",
+    "q3.a.solution()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "05935ede",
+   "metadata": {
+    "papermill": {
+     "duration": 0.008188,
+     "end_time": "2026-02-17T09:38:30.047205",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.039017",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# 3b.  <span title=\"A bit spicy\" style=\"color: darkgreen \">🌶️</span>\n",
+    "\n",
+    "<small>Questions, like this one, marked a spicy pepper are a bit harder.</small>\n",
+    "\n",
+    "Add parentheses to the following expression so that it evaluates to 0."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "91558ec5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:30.062082Z",
+     "iopub.status.busy": "2026-02-17T09:38:30.061699Z",
+     "iopub.status.idle": "2026-02-17T09:38:30.067118Z",
+     "shell.execute_reply": "2026-02-17T09:38:30.066140Z"
+    },
+    "papermill": {
+     "duration": 0.015255,
+     "end_time": "2026-02-17T09:38:30.068687",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.053432",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "8 - 3 * 2 - 1 + 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "226ead6c",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:30.080189Z",
+     "iopub.status.busy": "2026-02-17T09:38:30.079841Z",
+     "iopub.status.idle": "2026-02-17T09:38:30.084084Z",
+     "shell.execute_reply": "2026-02-17T09:38:30.083290Z"
+    },
+    "papermill": {
+     "duration": 0.012036,
+     "end_time": "2026-02-17T09:38:30.085675",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.073639",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "#q3.b.hint()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "f31e06b1",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:30.098814Z",
+     "iopub.status.busy": "2026-02-17T09:38:30.098502Z",
+     "iopub.status.idle": "2026-02-17T09:38:30.106783Z",
+     "shell.execute_reply": "2026-02-17T09:38:30.105871Z"
+    },
+    "papermill": {
+     "duration": 0.01578,
+     "end_time": "2026-02-17T09:38:30.108276",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.092496",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"interactionType\": 3, \"questionType\": 4, \"questionId\": \"3.2_ArithmeticParensHard\", \"learnToolsVersion\": \"0.3.5\", \"valueTowardsCompletion\": 0.0, \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\", \"outcomeType\": 4}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc99\">Solution:</span> `(8 - 3) * (2 - (1 + 1))` is one solution. There may be others."
+      ],
+      "text/plain": [
+       "Solution: `(8 - 3) * (2 - (1 + 1))` is one solution. There may be others."
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Check your answer (Run this code cell to receive credit!)\n",
+    "q3.b.solution()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9a673ea8",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004445,
+     "end_time": "2026-02-17T09:38:30.117756",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.113311",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "<hr/>\n",
+    "\n",
+    "# 4. \n",
+    "Alice, Bob and Carol have agreed to pool their Halloween candy and split it evenly among themselves.\n",
+    "For the sake of their friendship, any candies left over will be smashed. For example, if they collectively\n",
+    "bring home 91 candies, they'll take 30 each and smash 1.\n",
+    "\n",
+    "Write an arithmetic expression below to calculate how many candies they must smash for a given haul."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "d56575fd",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:30.128463Z",
+     "iopub.status.busy": "2026-02-17T09:38:30.128155Z",
+     "iopub.status.idle": "2026-02-17T09:38:30.135149Z",
+     "shell.execute_reply": "2026-02-17T09:38:30.134076Z"
+    },
+    "papermill": {
+     "duration": 0.01443,
+     "end_time": "2026-02-17T09:38:30.136859",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.122429",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/javascript": [
+       "parent.postMessage({\"jupyterEvent\": \"custom.exercise_interaction\", \"data\": {\"outcomeType\": 1, \"valueTowardsCompletion\": 0.25, \"interactionType\": 1, \"questionType\": 1, \"questionId\": \"4_CandySplitting\", \"learnToolsVersion\": \"0.3.5\", \"failureMessage\": \"\", \"exceptionClass\": \"\", \"trace\": \"\"}}, \"*\")"
+      ],
+      "text/plain": [
+       "<IPython.core.display.Javascript object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/markdown": [
+       "<span style=\"color:#33cc33\">Correct</span>"
+      ],
+      "text/plain": [
+       "Correct"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Variables representing the number of candies collected by alice, bob, and carol\n",
+    "alice_candies = 121\n",
+    "bob_candies = 77\n",
+    "carol_candies = 109\n",
+    "\n",
+    "# Your code goes here! Replace the right-hand side of this assignment with an expression\n",
+    "# involving alice_candies, bob_candies, and carol_candies\n",
+    "to_smash = (alice_candies + bob_candies + carol_candies) % 3\n",
+    "\n",
+    "# Check your answer\n",
+    "q4.check()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "72523b1f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-02-17T09:38:30.148344Z",
+     "iopub.status.busy": "2026-02-17T09:38:30.148013Z",
+     "iopub.status.idle": "2026-02-17T09:38:30.152353Z",
+     "shell.execute_reply": "2026-02-17T09:38:30.151498Z"
+    },
+    "papermill": {
+     "duration": 0.012488,
+     "end_time": "2026-02-17T09:38:30.154426",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.141938",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "#q4.hint()\n",
+    "#q4.solution()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "88518345",
+   "metadata": {
+    "papermill": {
+     "duration": 0.005745,
+     "end_time": "2026-02-17T09:38:30.165363",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.159618",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Keep Going\n",
+    "\n",
+    "Next up, you'll **[learn to write new functions and understand functions others write](https://www.kaggle.com/colinmorris/functions-and-getting-help)**. This will make you at least 10 times more productive as a Python programmer. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "73767352",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004495,
+     "end_time": "2026-02-17T09:38:30.174764",
+     "exception": false,
+     "start_time": "2026-02-17T09:38:30.170269",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "---\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "*Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/python/discussion) to chat with other learners.*"
+   ]
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [],
+   "isGpuEnabled": false,
+   "isInternetEnabled": false,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.12"
+  },
+  "learntools_metadata": {
+   "lesson_index": 0,
+   "type": "exercise"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 4.965855,
+   "end_time": "2026-02-17T09:38:30.598106",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2026-02-17T09:38:25.632251",
+   "version": "2.6.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
