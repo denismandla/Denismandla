@@ -22,5 +22,5 @@ I bridge the gap between data insights and software development. I am passionate
 ---
 ### 📫 Let's Connect!
 *   [LinkedIn](Linkedin.com/in/denis-mandla-53903226b)
-*   [Portfolio Website/Blog](Your-Link-Here)
+*   [Portfolio Website/Blog](https://github.com/Madeni00/Denismandla)
 *   Email: [dmandla425@gmail,com]
